@@ -1,0 +1,352 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/Road.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Pavement.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/Windmill.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/SmallManor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/manhole/protos/SquareManhole.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/CardboardBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/trees/protos/Pine.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/trees/protos/Forest.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/dji/mavic/protos/Mavic2Pro.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/street_furniture/protos/Fence.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Grass.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/animals/protos/Deer.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/animals/protos/Horse.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/animals/protos/Dog.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/animals/protos/Cow.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/animals/protos/Sheep.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/garden/protos/DogHouse.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/garden/protos/TableWithUmbrella.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/garden/protos/Wheelbarrow.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/vehicles/protos/generic/Tractor.proto"
+
+WorldInfo {
+  info [
+    "This demonstration shows a DJI Mavic 2 PRO flying over a rural area."
+    "After the drone has taken off, you can control it with the keyboard of your computer."
+  ]
+  title "DJI Mavic 2 PRO demo"
+  basicTimeStep 8
+  defaultDamping Damping {
+    linear 0.5
+    angular 0.5
+  }
+}
+Viewpoint {
+  orientation -0.13259968999087735 0.03665318441354883 0.9904917295397623 2.485810836635394
+  position 44.405606935978824 -39.289366685816645 26.366768821329156
+  near 0.2
+  follow "Mavic 2 PRO"
+  followSmoothness 0.2
+}
+TexturedBackground {
+  luminosity 3
+}
+TexturedBackgroundLight {
+}
+Floor {
+  size 400 400
+  tileSize 6 6
+  appearance Grass {
+    type "mossy"
+    textureTransform TextureTransform {
+      scale 3 3
+    }
+  }
+}
+Tractor {
+  translation -31.2883 0.405728 0.6
+  rotation 0.06036107550275795 0.3693608500967374 -0.927323623650323 0.348874
+}
+Wheelbarrow {
+  translation -38.4834 2.63939 2.13163e-14
+  rotation 0 0 -1 0.554687
+}
+TableWithUmbrella {
+  translation -40.552 20.6373 -2.13163e-14
+}
+DogHouse {
+  translation -44.6014 16.401 -7.10543e-15
+  rotation 0 0 -1 0.220893
+}
+Sheep {
+  translation -23.117 16.3247 0
+}
+Sheep {
+  translation -19.3299 21.5367 0
+  rotation 0 0 -1 1.74261
+  name "sheep(1)"
+}
+Sheep {
+  translation -22.5374 18.9868 0
+  rotation 0 0 1 -3.077785307179586
+  name "sheep(5)"
+}
+Sheep {
+  translation -24.793 17.3685 0
+  rotation 0 0 1 1.70333
+  name "sheep(4)"
+}
+Sheep {
+  translation -24.0914 15.8559 0
+  rotation 0 0 1 1.15846
+  name "sheep(3)"
+}
+Sheep {
+  translation -22.9538 17.0645 0
+  rotation 0 0 1 0.66268
+  name "sheep(2)"
+}
+Cow {
+  translation -22.1191 24.152 -3.55271e-14
+}
+Cow {
+  translation -21.6683 28.889 -3.55271e-14
+  rotation 0 0 -1 0.716676
+  name "cow(1)"
+}
+Cow {
+  translation -21.805 10.4817 -4.54747e-13
+  rotation 0 0 -1 1.22718
+  name "cow(2)"
+}
+Horse {
+  translation -29.54 12.81 0
+}
+Horse {
+  translation -27.6086 24.6624 0
+  rotation 0 0 -1 1.07992
+  name "horse(1)"
+  colorBody 0.560784 0.392157 0.00392157
+  colorHair 0.137255 0.0941176 0.00784314
+}
+Shape {
+}
+Road {
+  translation -43.8 9.2 0.01
+  rotation 0 0 1 -0.3926996938995747
+  width 3
+  numberOfLanes 1
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    100 0 0
+    200 200 0
+  ]
+  splineSubdivision 8
+  appearance Pavement {
+    type "black stone"
+  }
+}
+Windmill {
+  translation -32.0138 -4.99521 -3.05242e-07
+  rotation 7.19235e-09 1.83321e-08 -1 0.747762
+}
+Windmill {
+  translation -50.5978 -1.13523 -1.09466e-07
+  rotation -7.19228e-09 2.6842e-08 1 0.523601
+  name "windmill(1)"
+}
+Windmill {
+  translation -53.84 29.5883 1.42109e-14
+  rotation -7.1918e-09 3.38056e-07 1 0.0425446
+  name "windmill(2)"
+}
+Windmill {
+  translation -36.0668 37.797 0
+  rotation 0 0 -1 1.59043
+  name "windmill(3)"
+}
+SmallManor {
+  translation -50.35 11.25 0
+  rotation 0 0 -1 0.392394
+}
+SquareManhole {
+  translation -12.05 1.58 -0.03
+}
+CardboardBox {
+  translation -12.0576 -0.0365512 0.3
+  rotation 9.58979e-09 7.35851e-09 1 -1.8325953071795862
+}
+Pine {
+  translation -14.0083 -14.4828 0
+  rotation 0 0 1 2.61799
+}
+Pine {
+  translation -19.6195 -24.3783 0
+  rotation 0 0 1 2.87979
+  name "pine tree(1)"
+}
+Pine {
+  translation -22.0129 6.20205 0
+  name "pine tree(3)"
+}
+Pine {
+  translation -41.6037 29.4908 0
+  name "pine tree(12)"
+}
+Pine {
+  translation -38.4095 34.7898 0
+  name "pine tree(13)"
+}
+Pine {
+  translation -22.3737 45.1773 0
+  name "pine tree(14)"
+}
+Pine {
+  translation -30.9577 43.7207 0
+  name "pine tree(15)"
+}
+Pine {
+  translation -10.6926 -25.1339 0
+  name "pine tree(4)"
+}
+Pine {
+  translation -10.6926 36.3461 0
+  name "pine tree(7)"
+}
+Pine {
+  translation -14.3441 14.5621 0
+  name "pine tree(5)"
+}
+Pine {
+  translation -3.2341 20.5721 0
+  name "pine tree(8)"
+}
+Pine {
+  translation 7.1359 20.5721 0
+  name "pine tree(9)"
+}
+Pine {
+  translation 7.1359 6.7221 0
+  name "pine tree(10)"
+}
+Pine {
+  translation -26.6328 -7.1707 0
+  name "pine tree(6)"
+}
+Pine {
+  translation -26.6328 53.7693 0
+  name "pine tree(11)"
+}
+Pine {
+  translation -9.37029 14.0209 0
+  rotation 0 0 1 -2.6179953071795863
+  name "pine tree(2)"
+}
+Forest {
+  translation -106.99 234.999 -0.01
+  rotation 0 0 -1 -1.8325953071795862
+  shape [
+    200 200
+    200 0
+    50 0
+    50 50
+    -50 50
+    -50 -50
+    50 -50
+    50 0
+    200 0
+    200 -200
+    -200 -200
+    -200 200
+  ]
+  density 0.15
+  type "cherry tree"
+  randomSeed 1
+  maxHeight 12
+  minHeight 6
+  maxRadius 8
+  minRadius 3
+}
+Forest {
+  translation -26.4827 35.4542 -0.01
+  rotation 0 0 -1 0.2618
+  shape [
+    200 200
+    200 0
+    50 0
+    50 50
+    -50 50
+    -50 -50
+    50 -50
+    50 0
+    200 0
+    200 -200
+    -200 -200
+    -200 200
+  ]
+  density 0.15
+  type "cherry tree"
+  randomSeed 1
+  maxHeight 12
+  minHeight 6
+  maxRadius 8
+  minRadius 3
+}
+Mavic2Pro {
+  translation -12.01 1.57002 0.1
+  rotation 0 0 1 3.141590777218456
+  cameraSlot [
+    Camera {
+      fieldOfView 0.77
+      width 1920
+      height 1080
+      near 0.2
+      antiAliasing TRUE
+    }
+  ]
+}
+Fence {
+  translation -33.2642 11.7918 3.55271e-15
+  rotation 0 0 -1 1.85551
+  path [
+    0 0 0
+    0 15 0
+  ]
+}
+Fence {
+  translation -27.3317 35.5511 3.55271e-15
+  rotation 0 0 -1 1.85551
+  name "fence(2)"
+  path [
+    0 0 0
+    0 15 0
+  ]
+}
+Fence {
+  translation -33.2642 11.7918 3.55271e-15
+  rotation 0 0 -1 0.245437
+  name "fence(1)"
+  path [
+    0 0 0
+    0 25 0
+  ]
+}
+Fence {
+  translation -19.2188 7.57274 3.55271e-15
+  rotation 0 0 -1 0.245437
+  name "fence(3)"
+  path [
+    0 0 0
+    0 25 0
+  ]
+}
+Deer {
+  translation -46.7988 44.1819 0
+  rotation 0 0 -1 3.00415
+}
+Deer {
+  translation -39.6578 28.0986 0
+  rotation 0 0 1 0.908113
+  name "deer(1)"
+}
+Dog {
+  translation -42.5975 15.9486 3.55271e-15
+  rotation 0 0 -1 0.0834486
+}

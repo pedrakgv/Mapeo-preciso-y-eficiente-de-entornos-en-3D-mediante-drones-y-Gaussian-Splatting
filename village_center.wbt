@@ -1,0 +1,2461 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Soil.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/geometries/protos/Extrusion.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Pavement.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/street_furniture/protos/BusStop.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/StreetLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/PedestrianCrossing.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/OrderSign.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/OrderPanel.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/Crossroad.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/Road.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/solids/protos/SolidBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/TrafficCone.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/Warehouse.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/garden/protos/PicketFence.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/garden/protos/PicketFenceWithDoor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/garden/protos/Pergolas.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/trees/protos/PalmTree.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/trees/protos/Cypress.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/trees/protos/BigSassafras.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/garden/protos/SwingCouch.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/street_furniture/protos/StoneBench.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/street_furniture/protos/PublicBin.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/street_furniture/protos/MetallicTrash.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/street_furniture/protos/TrashBin.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/solids/protos/SolidPipe.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/trees/protos/Sassafras.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/ResidentialBuildingWithRoundFront.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/ResidentialTower.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/SmallResidentialTower.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/StripBuilding.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/OldResidentialBuilding.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/SmallResidentialBuilding.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/RedBricks.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/street_furniture/protos/Bench.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/street_furniture/protos/ElectricalCabinet.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/street_furniture/protos/Mailbox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/street_furniture/protos/TrashContainer.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/street_furniture/protos/UrbanFence.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/garden/protos/TableWithUmbrella.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/FastFoodRestaurant.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/trees/protos/Pine.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/street_furniture/protos/OldBench.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Grass.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/street_furniture/protos/Fence.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/RoughOak.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Sand.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/garden/protos/Swing.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/garden/protos/Slide.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/garden/protos/WateringCan.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/balls/protos/SoccerBall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/LargeResidentialTower.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/vehicles/protos/lincoln/LincolnMKZSimple.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/vehicles/protos/citroen/CitroenCZeroSimple.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/vehicles/protos/bmw/BmwX5Simple.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/vehicles/protos/range_rover/RangeRoverSportSVRSimple.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/vehicles/protos/tesla/TeslaModel3Simple.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/vehicles/protos/mercedes_benz/MercedesBenzSprinterSimple.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/vehicles/protos/toyota/ToyotaPriusSimple.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/vehicles/protos/generic/BusSimple.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/vehicles/protos/generic/TruckSimple.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/vehicles/protos/generic/TruckTankSimple.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/vehicles/protos/generic/TruckTrailerSimple.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/vehicles/protos/generic/ScooterSimple.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/vehicles/protos/generic/ScooterDriver.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/vehicles/protos/generic/MotorbikeSimple.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/vehicles/protos/generic/MotorbikeDriver.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/dji/mavic/protos/Mavic2Pro.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/BigGlassTower.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/CyberboticsTower.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/TheThreeTowers.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/GasStation.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/UBuilding.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/HighwayPole.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/ParkingMeter.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/ParkingLines.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/WoodenBox.proto"
+
+WorldInfo {
+  title "Village Center"
+  basicTimeStep 10
+  defaultDamping Damping {
+    linear 0.3
+    angular 0.3
+  }
+  gpsReference 46.5156 6.56525 0
+  contactProperties [
+    ContactProperties {
+      coulombFriction [
+        8
+      ]
+      softCFM 1e-05
+      bumpSound ""
+      rollSound ""
+      slideSound ""
+    }
+    ContactProperties {
+      material2 "CitroenCZeroWheels"
+      coulombFriction [
+        8
+      ]
+      softCFM 1e-05
+      bumpSound ""
+      rollSound ""
+      slideSound ""
+    }
+    ContactProperties {
+      material2 "ToyotaPriusWheels"
+      coulombFriction [
+        8
+      ]
+      softCFM 1e-05
+      bumpSound ""
+      rollSound ""
+      slideSound ""
+    }
+    ContactProperties {
+      material2 "LincolnMKZWheels"
+      coulombFriction [
+        8
+      ]
+      softCFM 1e-05
+      bumpSound ""
+      rollSound ""
+      slideSound ""
+    }
+    ContactProperties {
+      material2 "RangeRoverSportSVRWheels"
+      coulombFriction [
+        8
+      ]
+      softCFM 1e-05
+      bumpSound ""
+      rollSound ""
+      slideSound ""
+    }
+    ContactProperties {
+      material2 "TruckWheels"
+      coulombFriction [
+        8
+      ]
+      softCFM 1e-05
+      bumpSound ""
+      rollSound ""
+      slideSound ""
+    }
+  ]
+}
+DEF VIEWPOINT Viewpoint {
+  fieldOfView 1
+  orientation -0.2143420957825199 -0.004249707532830215 0.9767494079657497 3.1552818321258753
+  position 199.0780783748516 187.5442049805849 4.458624235739137
+  near 4
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+  castShadows FALSE
+}
+DEF FLOOR_SEGMENTS Group {
+  children [
+    DEF LEFT Pose {
+      translation -174.107 246.371 0
+      rotation 0 0 1 2.618
+      children [
+        Shape {
+          appearance Soil {
+            type "grey"
+            textureTransform TextureTransform {
+              scale 100 100
+            }
+            color 0.219608 0.501961 0.0156863
+          }
+          geometry IndexedFaceSet {
+            coord Coordinate {
+              point [
+                0 0 0
+                -169.41 -32.33 0
+                -194.6 -363.83 0
+                -213.7 -800.64 0
+                146.44 -894.38 0
+                628.81 -849.22 0
+                647.33 -431.1 0
+                665.09 -203.68 0
+                504.73 -305.75 0
+                266.18 -387.38 0
+                210.94 -500.3 0
+                141.67 -470.94 0
+                76.68 -448.87 0
+                19.93 -443.71 0
+                -12.35 -360.85 0
+                8.43 -314.28 0
+                43.01 -278.53 0
+                132.09 -226.83 0
+                145.33 -72.6 0
+                26.32 12.72 0
+                0 0 0
+              ]
+            }
+            coordIndex [
+              0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+              10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+              20, -1
+            ]
+          }
+          castShadows FALSE
+        }
+      ]
+    }
+    DEF DELIMITER Pose {
+      translation -28.9008 132.468 0.41
+      rotation 0 0 1 1.865
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/default/worlds/textures/old_brick_wall.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            textureTransform TextureTransform {
+              rotation 1.5708
+              scale 55 0.116
+            }
+          }
+          geometry Box {
+            size 27.3 0.15 0.1
+          }
+        }
+      ]
+    }
+    DEF CENTER Pose {
+      translation 248.745 110.414 0
+      rotation 0 0 1 -5.307179586466759e-06
+      children [
+        Shape {
+          appearance Pavement {
+            type "braun stone"
+            textureTransform TextureTransform {
+              scale 300 300
+            }
+          }
+          geometry IndexedFaceSet {
+            coord Coordinate {
+              point [
+                0 0 0
+                -31.29 103.38 0
+                -43.31 143.08 0
+                -83.5 131.88 0
+                -106.88 124.62 0
+                -134.09 160.55 0
+                -223.17 108.85 0
+                -257.75 73.1 0
+                -278.53 26.53 0
+                -246.25 -56.33 0
+                -189.51 -61.5 0
+                -124.51 -83.56 0
+                -55.24 -112.92 0
+                0 0 0
+              ]
+            }
+            coordIndex [
+              0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+              10, 11, 12, 13, -1
+            ]
+          }
+          castShadows FALSE
+        }
+      ]
+    }
+    DEF LEFT Pose {
+      translation -218.435 697.39 -0.2
+      children [
+        Shape {
+          appearance Soil {
+            type "grey"
+            textureTransform TextureTransform {
+              scale 100 100
+            }
+            color 0.219608 0.501961 0.0156863
+          }
+          geometry IndexedFaceSet {
+            coord Coordinate {
+              point [
+                0 0 0
+                -169.41 -32.33 0
+                -194.6 -363.83 0
+                -213.7 -800.64 0
+                146.44 -894.38 0
+                628.81 -849.22 0
+                647.33 -431.1 0
+                665.09 -203.68 0
+                504.73 -305.75 0
+                266.18 -387.38 0
+                210.94 -500.3 0
+                141.67 -470.94 0
+                76.68 -448.87 0
+                19.93 -443.71 0
+                -12.35 -360.85 0
+                8.43 -314.28 0
+                43.01 -278.53 0
+                132.09 -226.83 0
+                145.33 -72.6 0
+                26.32 12.72 0
+                0 0 0
+              ]
+            }
+            coordIndex [
+              0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+              10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+              20, -1
+            ]
+          }
+          castShadows FALSE
+        }
+      ]
+    }
+  ]
+}
+BusStop {
+  translation 316.31615450357526 254.2792089393675 0
+  rotation 0 0 1 -0.2617994157693792
+  name "bus stop(2)"
+}
+DEF BUS_LINE Pose {
+  translation 321.50083702036505 255.77839778674345 0.1
+  rotation 0 0 1 -0.261795307179586
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/vehicles/worlds/textures/bus_lines.png"
+          ]
+        }
+        roughness 1
+        metalness 0
+      }
+      geometry Plane {
+        size 4 14
+      }
+    }
+  ]
+}
+BusStop {
+  translation 118.137 152.006 0
+  rotation 0 0 -1 -1.8325953071795862
+  name "bus stop(1)"
+}
+DEF BUS_LINE Pose {
+  translation 311.340476859859 229.44712744130402 0.1
+  rotation 0 0 1 2.35619
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/vehicles/worlds/textures/bus_lines.png"
+          ]
+        }
+        roughness 1
+        metalness 0
+      }
+      geometry Plane {
+        size 4 14
+      }
+    }
+  ]
+}
+StreetLight {
+  translation 269.435 201.655 0
+  rotation 0 0 -1 -1.9651353071795858
+  cutOffAngle 1.32
+  on FALSE
+}
+StreetLight {
+  translation 86.69715038195812 154.74792849658905 0
+  rotation 0 0 1 4.97418829546124
+  name "street light(3)"
+  cutOffAngle 1.32
+  on FALSE
+}
+StreetLight {
+  translation -63.29495876346886 109.65400369239401 0
+  rotation 0 0 1 4.97418829546124
+  name "street light(4)"
+  cutOffAngle 1.32
+  on FALSE
+}
+StreetLight {
+  translation -152.2652584810121 141.39668143179554 0
+  rotation 0 0 1 3.6193764580065957
+  name "street light(7)"
+  cutOffAngle 1.32
+  on FALSE
+}
+StreetLight {
+  translation 312.5230278494126 243.91545070673868 0
+  rotation 0 0 -1 0.5235987931795869
+  name "street light(1)"
+  cutOffAngle 1.32
+  on FALSE
+}
+PedestrianCrossing {
+  translation 101.286 153.341 -0.08
+  rotation 0 0 -1 1.26482
+  name "pedestrian crossing(2)"
+  size 9 3
+  enableBoundingObject FALSE
+}
+Pose {
+  translation -157.02614807225504 137.28270376314492 0.03
+  rotation 0 0 -1 2.61799
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 10 1
+        }
+      }
+      geometry Plane {
+        size 8.700000000000001 1.4
+      }
+      castShadows FALSE
+    }
+  ]
+}
+Pose {
+  translation -154.8661481322172 133.54147398417712 0.03
+  rotation 0 0 1 0.523599
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 10 1
+        }
+      }
+      geometry Plane {
+        size 8.700000000000001 1.4
+      }
+      castShadows FALSE
+    }
+  ]
+}
+PedestrianCrossing {
+  translation -155.92114807153536 135.368787621197 -0.19
+  rotation 0 0 1 0.5235987596153098
+  name "pedestrian crossing(4)"
+  size 9 3
+}
+PedestrianCrossing {
+  translation -58.721140490177056 104.5661576512462 -0.07999999999999999
+  rotation 0 0 1 1.8707963267948966
+  name "pedestrian crossing(1)"
+  size 9 3
+  enableBoundingObject FALSE
+}
+Pose {
+  translation -60.75442752733078 103.86391565268548 0.030000000000000002
+  rotation 0 0 1 -1.2707953071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 10 1
+        }
+      }
+      geometry Plane {
+        size 8.700000000000001 1.4000000000000001
+      }
+      castShadows FALSE
+    }
+  ]
+}
+Pose {
+  translation -56.67284742982963 105.15116017903867 0.030000000000000002
+  rotation 0 0 -1 -1.8892053071795862
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 10 1
+        }
+      }
+      geometry Plane {
+        size 8.700000000000001 1.4000000000000001
+      }
+      castShadows FALSE
+    }
+  ]
+}
+PedestrianCrossing {
+  translation -58.721140490177056 104.5661576512462 -0.19
+  rotation 0 0 1 1.8707963267948966
+  name "pedestrian crossing(5)"
+  size 9 3
+}
+OrderSign {
+  translation -23.653958523875843 119.91802087370827 -0.09999999999997158
+  rotation 0 0 -1 6.021385939359172
+  signBoards [
+    OrderPanel {
+      translation 0.026 0 -0.175
+      signImage [
+        "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/textures/signs/eu/speed_limit_30.jpg"
+      ]
+    }
+  ]
+}
+OrderSign {
+  translation -22.308802690610918 108.31901029538759 -0.009999999999999112
+  rotation 0 0 -1 2.879793295359172
+  name "order sign(2)"
+  signBoards [
+    OrderPanel {
+      translation 0.026 0 -0.175
+      signImage [
+        "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/textures/signs/eu/speed_limit_50.jpg"
+      ]
+    }
+  ]
+}
+OrderSign {
+  translation -361.41492632953464 181.82192902749122 -0.010000000000002665
+  rotation 0 0 -1 1.8325957857183452
+  name "order sign(5)"
+  signBoards [
+    OrderPanel {
+      translation 0.026 0 -0.175
+      signImage [
+        "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/textures/signs/eu/end_limit_50.png"
+      ]
+    }
+  ]
+}
+OrderSign {
+  translation 322.97072471062864 303.89077138719455 -0.09999999999989875
+  rotation 0 0 -1 4.7123890043591725
+  name "order sign(1)"
+  signBoards [
+    OrderPanel {
+      translation 0.026 0 -0.175
+      signImage [
+        "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/textures/signs/eu/speed_limit_50.jpg"
+      ]
+    }
+  ]
+}
+Crossroad {
+  translation -367.921353 170.449322 0.01
+  name "crossroad(2)"
+  id "-1119"
+  shape []
+  connectedRoadIDs [
+    "-2172"
+    "-2219"
+  ]
+}
+Crossroad {
+  translation 119.578509 405.059244 0.01
+  name "crossroad(4)"
+  id "-1248"
+  shape []
+  connectedRoadIDs [
+    "-2197"
+    "-618"
+  ]
+}
+Crossroad {
+  translation 295.172321 368.317667 0.01
+  name "crossroad(5)"
+  id "-1250"
+  shape []
+  connectedRoadIDs [
+    "-2191"
+    "-2197"
+  ]
+}
+Crossroad {
+  translation 328.672292 303.966694 0.01
+  name "crossroad(6)"
+  id "-1540"
+  shape []
+  connectedRoadIDs [
+    "-2144"
+    "-2191"
+  ]
+}
+Crossroad {
+  translation -380.265853 -122.358241 0.01
+  name "crossroad(7)"
+  id "-2169"
+  shape []
+  connectedRoadIDs [
+    "-2028"
+    "-2219"
+  ]
+}
+Crossroad {
+  translation -127.668375 82.104325 0.01
+  name "crossroad(8)"
+  id "-38"
+  shape [
+    4.5 7.5 0
+    9.2 -4.6 0
+    -1.8 -16.3 0
+    -10 -12.5 0
+    -9.8 -2 0
+    -6.3 6.35 0
+  ]
+  connectedRoadIDs [
+    "-1083"
+    "-1085"
+    "-2144"
+  ]
+}
+Road {
+  translation -129.876194 86.052723 0.01
+  rotation 0 0 1 3.141592653589793
+  name "road(3)"
+  id "-1085"
+  startJunction "-38"
+  width 9
+  speedLimit 22.222222
+  wayPoints [
+    0 -4 0
+    87 -156 0
+  ]
+  startingAngle [
+    1.170758
+  ]
+  startLine [
+    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
+    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
+  ]
+  splineSubdivision 8
+  rightBorderBoundingObject TRUE
+  leftBorderBoundingObject TRUE
+  castShadows TRUE
+}
+DEF ROAD_1 Road {
+  translation 328.672 303.967 0.02
+  rotation 0 0 1 3.141592653589793
+  name "road(7)"
+  id "-2144"
+  startJunction "-1540"
+  endJunction "-38"
+  width 9
+  speedLimit 22.222222
+  wayPoints [
+    0 0 0
+    0.563253 47.993379 0
+    18.826359 78.878785 0
+    72.540336 104.066195 0
+    442 216 0
+  ]
+  startingAngle [
+    -1.559061
+  ]
+  endingAngle [
+    -0.432099
+  ]
+  endLine [
+    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
+    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
+  ]
+  splineSubdivision 32
+  rightBorderBoundingObject TRUE
+  leftBorderBoundingObject TRUE
+  castShadows TRUE
+}
+SolidBox {
+  translation 294.17692321995133 361.8304407001711 0.007499999999102051
+  rotation 0 0 1 4.51
+  name "box(2)"
+  size 2.5 0.7 0.29
+  appearance Pavement {
+    textureTransform TextureTransform {
+      scale 2.5 2.5
+    }
+  }
+}
+LincolnMKZSimple {
+  translation 174.532 161.408 0.29
+  rotation 0 0 1 1.85885
+  color 0.666667 0 0
+}
+ParkingLines {
+  translation 171.398 159.143 0.1
+  rotation 0 0 1 0.261799
+  carParkLength 5.5
+}
+LincolnMKZSimple {
+  translation 178.7575248088473 180.32826614579383 0.2999999999999823
+  rotation 0 0 -1 2.80118
+  color 0.3653315022507057 0.4955825131609064 0.8
+  name "vehicle(6)"
+}
+TrafficCone {
+  translation 181.7211900918744 182.30109139953942 0
+}
+TrafficCone {
+  translation 180.25775861902216 179.34232180541824 0
+  name "traffic cone(1)"
+}
+DEF WEBOTS_VEHICLE2 TrafficCone {
+  translation 181.58287972559302 180.80273734082778 0
+  rotation 0 1 0 0
+  name "traffic cone(2)"
+}
+TruckSimple {
+  translation 88.0376 139.702 0.5
+  rotation -5.28501e-08 -9.58988e-09 1 0.358999
+  trailer TruckTankSimple {
+  }
+  name "vehicle(2)"
+}
+TruckSimple {
+  translation 205.484 188.713 0.5
+  rotation 0 0 -1 2.82945
+  name "vehicle(5)"
+}
+Warehouse {
+  translation 307.154 193.328 0
+  rotation 0 0 1 -2.9764053071795864
+  name "warehouse(3)"
+}
+PicketFence {
+  translation 77.86828348146132 127.80701556509126 0
+  rotation 0 0 1 0.287610995640826
+  numberOfSegments 7
+}
+PicketFence {
+  translation 74.56958394854698 126.83121774199934 0
+  rotation 0 0 1 1.8584073176408265
+  name "picket fence(2)"
+  numberOfSegments 2
+}
+PicketFence {
+  translation 65.1145905199032 124.03430886534615 0
+  rotation 0 0 1 1.8584073176408265
+  name "picket fence(4)"
+}
+PicketFence {
+  translation 55.65000784843106 121.23456336711426 0
+  rotation 0 0 1 1.8584073176408265
+  name "picket fence(8)"
+  numberOfSegments 2
+}
+PicketFence {
+  translation 46.14706820564597 118.42347138256731 0
+  rotation 0 0 1 1.8584073176408265
+  name "picket fence(16)"
+  numberOfSegments 2
+}
+PicketFence {
+  translation 22.40518234101762 111.43160070363164 0
+  rotation 0 0 1 1.8584073176408265
+  name "picket fence(20)"
+  numberOfSegments 2
+}
+PicketFence {
+  translation 13.065259826312605 108.66873128592354 0
+  rotation 0 0 1 1.8584073176408265
+  name "picket fence(22)"
+}
+PicketFence {
+  translation 34.9851895535755 115.1216438648956 0
+  rotation 0 0 1 1.8584073176408265
+  name "picket fence(18)"
+  numberOfSegments 2
+}
+PicketFence {
+  translation 60.703538822476666 122.72946292707198 0
+  rotation 0 0 1 4.999999961640826
+  name "picket fence(6)"
+}
+PicketFence {
+  translation 51.200599152733766 119.91837103365638 0
+  rotation 0 0 1 4.999999961640826
+  name "picket fence(9)"
+}
+PicketFence {
+  translation 41.68807024013541 117.10444251875393 0
+  rotation 0 0 1 4.999999961640826
+  name "picket fence(17)"
+  numberOfSegments 2
+}
+PicketFence {
+  translation 18.012229630049493 110.10082406785261 0
+  rotation 0 0 1 4.999999961640826
+  name "picket fence(21)"
+  numberOfSegments 2
+}
+PicketFence {
+  translation 8.605182388861044 107.31809838930496 0
+  rotation 0 0 1 4.999999961640826
+  name "picket fence(23)"
+  numberOfSegments 2
+}
+PicketFence {
+  translation -2.4032684162044733 104.06165694618763 0
+  rotation 0 0 -1 4.424778008718347
+  name "picket fence(24)"
+  numberOfSegments 2
+}
+PicketFence {
+  translation -6.843087861266342 102.74830120791611 0
+  rotation 0 0 -1 1.2831853647183464
+  name "picket fence(26)"
+  numberOfSegments 3
+}
+PicketFence {
+  translation -16.173421212547535 99.98826868021477 0
+  rotation 0 0 -1 0.6
+  name "picket fence(27)"
+  numberOfSegments 2
+}
+PicketFence {
+  translation 30.602905499244635 113.8253080800168 0
+  rotation 0 0 1 4.999999961640826
+  name "picket fence(19)"
+  numberOfSegments 3
+}
+PicketFence {
+  translation 70.13935377166594 125.52069853960101 0
+  rotation 0 0 1 4.999999961640826
+  name "picket fence(3)"
+  numberOfSegments 2
+}
+PicketFenceWithDoor {
+  translation 74.50245926478524 126.81136133673843 0
+  rotation 0 0 1 1.8584073176408265
+}
+PicketFenceWithDoor {
+  translation 60.71312807535621 122.73229951467202 0
+  rotation 0 0 1 4.999999961640826
+  name "picket fence with door(1)"
+}
+PicketFenceWithDoor {
+  translation 51.238956134179666 119.92971748571674 0
+  rotation 0 0 1 4.999999961640826
+  name "picket fence with door(2)"
+}
+PicketFenceWithDoor {
+  translation 41.72642722158135 117.11578897081426 0
+  rotation 0 0 1 4.999999961640826
+  name "picket fence with door(3)"
+}
+PicketFenceWithDoor {
+  translation 34.975600265223704 115.1188073972102 0
+  rotation 0 0 -1 4.424778008718347
+  name "picket fence with door(4)"
+}
+PicketFenceWithDoor {
+  translation 18.03140807782646 110.1064974390627 0
+  rotation 0 0 -1 1.2831853647183464
+  name "picket fence with door(5)"
+}
+PicketFenceWithDoor {
+  translation 8.624360783266477 107.32377194093827 0
+  rotation 0 0 -1 1.2831853647183464
+  name "picket fence with door(6)"
+}
+PicketFenceWithDoor {
+  translation 0.9625556982986664 105.05731151993785 0
+  rotation 0 0 -1 1.2831853647183464
+  name "picket fence with door(7)"
+}
+PicketFenceWithDoor {
+  translation -6.8239095444971545 102.75397502199996 0
+  rotation 0 0 -1 1.2831853647183464
+  name "picket fence with door(10)"
+}
+PicketFenceWithDoor {
+  translation -11.810315843118632 101.27893189548875 0
+  rotation 0 0 1 1.858407279281654
+  name "picket fence with door(9)"
+}
+PicketFence {
+  translation 66.8118865161838 124.5363908317718 0
+  rotation 0 0 1 0.287610995640826
+  name "picket fence(1)"
+  numberOfSegments 7
+}
+PicketFence {
+  translation 59.00624286506852 122.22738082923749 0
+  rotation 0 0 1 0.287610995640826
+  name "picket fence(5)"
+  numberOfSegments 7
+}
+PicketFence {
+  translation 49.541660207020875 119.42763528562392 0
+  rotation 0 0 1 0.287610995640826
+  name "picket fence(7)"
+  numberOfSegments 7
+}
+PicketFence {
+  translation 38.3318353567091 116.11162460630865 0
+  rotation 0 0 1 0.287610995640826
+  name "picket fence(10)"
+  numberOfSegments 7
+}
+PicketFence {
+  translation 26.39322805248488 112.5800306835134 0
+  rotation 0 0 1 0.287610995640826
+  name "picket fence(11)"
+  numberOfSegments 7
+}
+PicketFence {
+  translation 15.106689259656017 109.24132703120006 0
+  rotation 0 0 1 0.287610995640826
+  name "picket fence(12)"
+  numberOfSegments 8
+}
+PicketFence {
+  translation 5.95855161449145 106.53519000120276 0
+  rotation 0 0 1 0.287610995640826
+  name "picket fence(13)"
+  numberOfSegments 7
+}
+PicketFence {
+  translation 0.9241991368065388 105.04596364821685 0
+  rotation 0 0 1 0.287610995640826
+  name "picket fence(14)"
+  numberOfSegments 8
+}
+PicketFence {
+  translation -11.666476678813051 101.3214794549395 0
+  rotation 0 0 1 0.287610995640826
+  name "picket fence(15)"
+  numberOfSegments 8
+}
+Pergolas {
+  translation -7.54946353463421 98.90945119413313 0
+  rotation 0 0 1 0.287610995640826
+}
+Pergolas {
+  translation 27.017621910020193 102.41386379235665 0
+  rotation 0 0 1 0.287610995640826
+  name "pergola(1)"
+}
+Pergolas {
+  translation 75.88022425738298 123.88838626162811 0
+  rotation 0 0 1 0.287610995640826
+  name "pergola(2)"
+}
+PalmTree {
+  translation -12.57117999193556 100.05708889025695 0
+}
+PalmTree {
+  translation 7.334546976112431 105.63545053978501 0
+  name "palm tree(1)"
+}
+PalmTree {
+  translation 39.6584039875585 115.18979275328695 0
+  name "palm tree(2)"
+}
+Cypress {
+  translation -17.93677888243451 97.0100111698651 0
+}
+Cypress {
+  translation -17.777041343370332 96.51474731676956 0
+  name "cypress tree(1)"
+}
+Cypress {
+  translation -17.599345053716974 96.02032158231114 0
+  rotation 0 0 1 1.832595709
+  name "cypress tree(2)"
+}
+Cypress {
+  translation -17.403149653289862 95.44228942006661 0
+  name "cypress tree(3)"
+}
+Cypress {
+  translation -17.205502418978394 94.73444853472587 0
+  rotation 0 0 1 1.832595709
+  name "cypress tree(4)"
+}
+Cypress {
+  translation -17.010233165885307 94.20647381298805 0
+  name "cypress tree(5)"
+}
+Cypress {
+  translation -16.646855515136124 93.02476135196001 0
+  name "cypress tree(6)"
+}
+Cypress {
+  translation -16.436637962300587 92.3433785300743 0
+  rotation 0 0 1 6.021385901
+  name "cypress tree(8)"
+}
+Cypress {
+  translation -16.228336423036083 91.6714239214467 0
+  rotation 0 0 1 6.021385901
+  name "cypress tree(9)"
+}
+Cypress {
+  translation -16.022018714719323 91.1339277759279 0
+  rotation 0 0 1 0.7853981610000004
+  name "cypress tree(10)"
+}
+Cypress {
+  translation -14.999116003038555 87.70780226627409 0
+  name "cypress tree(11)"
+}
+Cypress {
+  translation -14.58965908805091 86.23934483092442 0
+  rotation 0 0 1 6.021385901
+  name "cypress tree(17)"
+}
+Cypress {
+  translation -14.754058686657396 86.82957781541622 0
+  name "cypress tree(19)"
+}
+Cypress {
+  translation -14.900038707768248 87.29110283293731 0
+  rotation 0 0 1 2.356194483
+  name "cypress tree(18)"
+}
+Cypress {
+  translation -15.149184050906982 88.23156201498665 0
+  rotation 0 0 1 0.5235987739999998
+  name "cypress tree(16)"
+}
+Cypress {
+  translation -15.336575915787192 88.80003029496977 0
+  name "cypress tree(15)"
+}
+Cypress {
+  translation -15.513789700666305 89.40885319336816 0
+  rotation 0 0 1 6.021385901
+  name "cypress tree(14)"
+}
+Cypress {
+  translation -15.69529967383832 89.99631916155126 0
+  name "cypress tree(13)"
+}
+Cypress {
+  translation -15.873693886765095 90.57152976382739 0
+  rotation 0 0 1 1.0471975479999998
+  name "cypress tree(12)"
+}
+Cypress {
+  translation -16.845133074506833 93.6948520564276 0
+  rotation 0 0 1 0.7853981610000004
+  name "cypress tree(7)"
+}
+BigSassafras {
+  translation 52.47092839936579 117.75650971244532 0
+  name "sassafras tree(7)"
+}
+SwingCouch {
+  translation 59.953063202176935 111.95806937374844 0
+  rotation 0 0 1 2.61799385561531
+}
+SwingCouch {
+  translation 17.575971911702396 107.38096655139078 0
+  rotation 0 0 1 -0.5235988075642765
+  name "swing couch(1)"
+}
+StoneBench {
+  translation 71.7283 135.095 0
+  rotation 0 0 1 1.8584073176408265
+}
+StoneBench {
+  translation 55.878542268030124 130.42266169020664 0
+  rotation 0 0 1 1.8584073176408265
+  name "stone bench(1)"
+}
+StoneBench {
+  translation 40.09464857274835 125.75358257157467 0
+  rotation 0 0 1 1.8584073176408265
+  name "stone bench(2)"
+}
+StoneBench {
+  translation 23.716221822115724 120.90863291505997 0
+  rotation 0 0 1 1.8584073176408265
+  name "stone bench(3)"
+}
+StoneBench {
+  translation 3.8856676533169923 115.0424994901932 0
+  rotation 0 0 1 1.8584073176408265
+  name "stone bench(4)"
+}
+StoneBench {
+  translation -12.703722439536893 110.13514415894579 0
+  rotation 0 0 1 1.8584073176408265
+  name "stone bench(5)"
+}
+PublicBin {
+  translation 12.285844370854551 117.5273799931831 0
+  rotation 0 0 1 1.8584073176408265
+  name "public bin(1)"
+}
+PublicBin {
+  translation 49.39621411614038 128.5051055029676 0
+  rotation 0 0 1 1.8584073176408265
+  name "public bin(2)"
+}
+PublicBin {
+  translation 74.6817 135.968 0
+  rotation 0 0 1 1.8584073176408265
+  name "public bin(3)"
+}
+MetallicTrash {
+  translation -12.520830031366446 101.68082638493875 0
+}
+MetallicTrash {
+  translation -5.808750317857296 103.68873696100212 0
+  name "metallic trash(1)"
+}
+MetallicTrash {
+  translation 12.072737713518904 108.82608306322938 0
+  name "metallic trash(3)"
+}
+MetallicTrash {
+  translation 52.305405455204124 120.92564316416565 0
+  name "metallic trash(4)"
+}
+MetallicTrash {
+  translation 70.88468425536499 126.21173164186966 0
+  name "metallic trash(6)"
+}
+MetallicTrash {
+  translation 51.535756398860805 120.52578547104781 0
+  name "metallic trash(5)"
+}
+MetallicTrash {
+  translation -2.3279092605843177 118.8026087564382 -162.6790472721372
+  rotation -0.10023993291169293 -0.9948840865995405 -0.012554285358289162 1.3238625089187224
+  name "metallic trash(2)"
+  enablePhysics TRUE
+}
+TrashBin {
+  translation 2.1776558812287767 104.81236373789534 0
+  rotation 0 0 1 -1.3089969829489674
+  name "trash bin(1)"
+}
+TrashBin {
+  translation 69.99640985877748 126.15105662266505 0
+  rotation 0 0 1 1.8325956802306191
+  name "trash bin(2)"
+}
+TrashBin {
+  translation 31.133897608418465 114.65522470844294 0
+  rotation 0 0 1 1.8325956802306191
+  name "trash bin(4)"
+}
+TrashBin {
+  translation -6.699343631329283 103.45147629070085 0
+  rotation 0 0 1 1.8325956802306191
+  name "trash bin(3)"
+}
+DEF TREE Pose {
+  translation 80.26398678024258 137.63619036498253 0
+  rotation 0 0 1 1.8584073176408265
+  children [
+    SolidPipe {
+      translation 0 3.65 0
+      height 0.2
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/default/worlds/textures/gray_brick_wall.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 5 0.5
+        }
+      }
+    }
+    Sassafras {
+      translation 0 3.63 0
+    }
+    Shape {
+      appearance Soil {
+      }
+      geometry Cylinder {
+        height 0.1
+        radius 0.94
+        side FALSE
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF TREE Pose {
+  translation 64.49927157061725 132.972784489508 0
+  rotation 0 0 1 2.6438054786408265
+  children [
+    SolidPipe {
+      translation 0 0 0
+      name "pipe(1)"
+      height 0.2
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/default/worlds/textures/gray_brick_wall.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 5 0.5
+        }
+      }
+    }
+    Sassafras {
+      name "sassafras tree(1)"
+    }
+    Shape {
+      appearance Soil {
+      }
+      geometry Cylinder {
+        height 0.1
+        radius 0.94
+        side FALSE
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF TREE Pose {
+  translation 47.44000857917959 127.92643470090151 0
+  rotation 0 0 1 5.785398122640827
+  children [
+    SolidPipe {
+      translation 0 0 0
+      name "pipe(2)"
+      height 0.2
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/default/worlds/textures/gray_brick_wall.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 5 0.5
+        }
+      }
+    }
+    Sassafras {
+      name "sassafras tree(2)"
+    }
+    Shape {
+      appearance Soil {
+      }
+      geometry Cylinder {
+        height 0.1
+        radius 0.94
+        side FALSE
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF TREE Pose {
+  translation 30.975278643092814 123.05595545017793 0
+  rotation 0 0 1 3.6910030266408267
+  children [
+    SolidPipe {
+      translation 0 0 0
+      name "pipe(3)"
+      height 0.2
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/default/worlds/textures/gray_brick_wall.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 5 0.5
+        }
+      }
+    }
+    Sassafras {
+      name "sassafras tree(3)"
+    }
+    Shape {
+      appearance Soil {
+      }
+      geometry Cylinder {
+        height 0.1
+        radius 0.94
+        side FALSE
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF TREE Pose {
+  translation 14.184514450845919 118.08903106577674 0
+  rotation 0 0 -1 6.257373717718359
+  children [
+    SolidPipe {
+      translation 0 0 0
+      name "pipe(4)"
+      height 0.2
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/default/worlds/textures/gray_brick_wall.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 5 0.5
+        }
+      }
+    }
+    Sassafras {
+      name "sassafras tree(4)"
+    }
+    Shape {
+      appearance Soil {
+      }
+      geometry Cylinder {
+        height 0.1
+        radius 0.94
+        side FALSE
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF TREE Pose {
+  translation -5.118631362399662 112.3789118277416 0
+  rotation 0 0 1 3.1674042526408264
+  children [
+    SolidPipe {
+      translation 0 0 0
+      name "pipe(5)"
+      height 0.2
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/default/worlds/textures/gray_brick_wall.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 5 0.5
+        }
+      }
+    }
+    Sassafras {
+      name "sassafras tree(5)"
+    }
+    Shape {
+      appearance Soil {
+      }
+      geometry Cylinder {
+        height 0.1
+        radius 0.94
+        side FALSE
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF TREE Pose {
+  translation -17.92027053809902 108.59202202010262 0
+  rotation 0 0 -1 5.9955743307183464
+  children [
+    SolidPipe {
+      translation 0 0 0
+      name "pipe(6)"
+      height 0.2
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/default/worlds/textures/gray_brick_wall.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 5 0.5
+        }
+      }
+    }
+    Sassafras {
+      name "sassafras tree(6)"
+    }
+    Shape {
+      appearance Soil {
+      }
+      geometry Cylinder {
+        height 0.1
+        radius 0.94
+        side FALSE
+      }
+      castShadows FALSE
+    }
+  ]
+}
+Sassafras {
+  translation 279.17477077598437 356.57136783141215 0
+  name "sassafras tree(9)"
+}
+ResidentialBuildingWithRoundFront {
+  translation 40.788687816113345 93.046472754138 0
+  rotation 0 0 -1 4.424777970359173
+  name "residential building(19)"
+}
+ResidentialBuildingWithRoundFront {
+  translation 3.9525684632663136 79.90777757452396 0
+  rotation 0 0 -1 4.424777970359173
+  name "residential building(5)"
+  type "orange"
+}
+ResidentialTower {
+  translation 303.511 251.753 3.55271e-14
+  rotation 0 0 -1 0.8877841003591741
+  name "residential tower(7)"
+  numberOfFloors 1
+}
+ResidentialTower {
+  translation 276.66487798770976 227.17140688891783 0
+  rotation 0 0 -1 0.8877841003591741
+  name "residential tower(25)"
+  numberOfFloors 2
+}
+ResidentialTower {
+  translation 281.2488977339644 234.70435869853054 0
+  rotation 0 0 -1 0.8877841003591741
+  name "residential tower(26)"
+}
+ResidentialTower {
+  translation 286.81141547106733 241.3832954720309 0
+  rotation 0 0 -1 0.8877841003591741
+  name "residential tower(27)"
+  numberOfFloors 4
+}
+ResidentialTower {
+  translation 296.112 245.006 0
+  rotation 0 0 -1 0.964688
+  name "residential tower(28)"
+  numberOfFloors 2
+}
+ResidentialTower {
+  translation 72.9989 194.173 -5.68434e-14
+  rotation 0 0 -1 1.20031
+  name "residential tower(29)"
+}
+ResidentialTower {
+  translation 116.399 208.198 -1.26477e-12
+  rotation 0 0 -1 1.24939
+  name "residential tower(30)"
+  numberOfFloors 4
+}
+ResidentialTower {
+  translation 160.552 218.488 2.84217e-14
+  rotation 0 0 -1 1.2543
+  name "residential tower(31)"
+}
+ResidentialTower {
+  translation 217.989 238.013 -7.10543e-14
+  rotation 0 0 -1 1.22158
+  name "residential tower(32)"
+  numberOfFloors 4
+}
+ResidentialTower {
+  translation 138.606 215.79 2.70006e-13
+  rotation 0 0 -1 1.20686
+  name "residential tower(33)"
+  numberOfFloors 7
+}
+ResidentialTower {
+  translation 308.39 265.175 2.84217e-14
+  rotation 0 0 -1 1.93499
+  name "residential tower(34)"
+  numberOfFloors 8
+}
+ResidentialTower {
+  translation 94.4327 202.1 1.42109e-14
+  rotation 0 0 -1 1.29521
+  name "residential tower(35)"
+  numberOfFloors 5
+}
+ResidentialTower {
+  translation 308.18615636557524 314.93781699663856 0
+  rotation 0 0 -1 0.10238593935917248
+  name "residential tower(36)"
+}
+ResidentialTower {
+  translation 306.72485417222026 323.51207474292164 0
+  rotation 0 0 -1 0.10238593935917248
+  name "residential tower(37)"
+}
+ResidentialTower {
+  translation 304.125824403221 333.15780774090297 0
+  rotation 0 0 1 0.42121283464082737
+  name "residential tower(38)"
+  numberOfFloors 4
+}
+ResidentialTower {
+  translation 299.3003999400646 340.1127540922684 0
+  rotation 0 0 1 0.42121283464082737
+  name "residential tower(39)"
+}
+ResidentialTower {
+  translation 292.49678313174417 346.4085728469679 0
+  rotation 0 0 1 0.6830122216408276
+  name "residential tower(40)"
+  numberOfFloors 2
+}
+ResidentialTower {
+  translation 283.9337367359094 350.3324368790869 0
+  rotation 0 0 1 0.9448116086408281
+  name "residential tower(41)"
+  numberOfFloors 1
+}
+ResidentialTower {
+  translation 67.28163196920528 107.49947602749582 0
+  rotation 0 0 -1 4.424777970359173
+  name "residential tower(5)"
+}
+ResidentialTower {
+  translation -9.758944201870223 82.56163884724486 0
+  rotation 0 0 -1 4.424777970359173
+  name "residential tower(23)"
+}
+SmallResidentialTower {
+  translation 7.715003865568371 90.38541470526604 0
+  rotation 0 0 -1 4.424777970359173
+  name "residential tower(6)"
+  numberOfFloors 5
+}
+StripBuilding {
+  translation 268.642 216.815 0
+  rotation 0 0 1 -1.2733653071795858
+  name "street facade(4)"
+  length 307
+  randomSeed 5
+}
+FastFoodRestaurant {
+  translation -33.9903 124.361 8.52651e-14
+  rotation 0 0 -1 1.27136
+}
+Mavic2Pro {
+  translation 190.739 187.66 0.666784
+  rotation 0.0016788699491615505 -0.0011144299662535556 -0.999997969718711 2.57297
+  controller "mavic2pro_patrol"
+  cameraSlot [
+    Camera {
+      rotation 0 1 0 -0.523595307179586
+      fieldOfView 0.85
+      width 1920
+      height 1080
+      antiAliasing TRUE
+    }
+  ]
+}
+StripBuilding {
+  translation -105.885 76.7278 0
+  rotation 0 0 -1 4.424777970359173
+  name "street facade(3)"
+  length 80
+  randomSeed 17
+}
+OldResidentialBuilding {
+  translation 79.53900193987131 101.29692388423639 0
+  rotation 0 0 -1 4.424777970359173
+  name "residential building(28)"
+  type "light grey"
+}
+OldResidentialBuilding {
+  translation 28.350365640862794 85.35214097907965 0
+  rotation 0 0 -1 4.424777970359173
+  name "residential building(16)"
+  type "light grey"
+}
+OldResidentialBuilding {
+  translation 51.14282171101078 92.57374524278742 0
+  rotation 0 0 -1 4.424777970359173
+  name "residential building(10)"
+}
+SmallResidentialBuilding {
+  translation 61.34571481413598 96.10290109603663 0
+  rotation 0 0 1 1.858407317640826
+  name "residential building(17)"
+}
+Solid {
+  translation -31.3763380862876 139.84128526237498 0
+  rotation 0.47690495958779083 0.6215159473336731 0.6215139473338426 2.25159
+  children [
+    DEF SHAPE Shape {
+      appearance RedBricks {
+        textureTransform TextureTransform {
+          scale 40 4.8
+        }
+      }
+      geometry Extrusion {
+        crossSection [
+          0.2 2
+          0.2 -0.75
+          -0.2 -0.75
+          -0.2 2
+          0.2 2
+        ]
+        spine [
+          0 0 0
+          49.3 0 -1.1
+          48 0 -67.60000000000001
+          59 0 -72
+        ]
+        splineSubdivision 0
+      }
+    }
+  ]
+  name "wall(2)"
+  boundingObject USE SHAPE
+}
+SmallResidentialBuilding {
+  translation 17.844721869186195 82.8284236924897 0
+  rotation 0 0 -1 4.424777970359173
+  name "residential building(21)"
+  type "white"
+}
+Bench {
+  translation 158.01544479447116 184.92134616770755 0
+  rotation 0 0 1 -1.3089969445897933
+}
+Bench {
+  translation 90.39108697555778 165.12096581731427 0
+  rotation 0 0 1 -1.3089969445897933
+  name "bench(6)"
+}
+Bench {
+  translation -20.736901053375316 129.5444882867761 0
+  rotation 0 0 1 -1.3089969445897933
+  name "bench(8)"
+}
+Bench {
+  translation 37.612713101226525 149.52973529594766 0
+  rotation 0 0 1 -1.3089969445897933
+  name "bench(9)"
+}
+Bench {
+  translation 114.940344942386 172.09101449694342 0
+  rotation 0 0 1 -1.3089969445897933
+  name "bench(7)"
+}
+ElectricalCabinet {
+  translation 175.6736989706011 190.53552031900935 0
+  rotation 0 0 1 4.974188353
+}
+ElectricalCabinet {
+  translation 100.04681122170454 167.97380244581618 0
+  rotation 0 0 1 4.974188353
+  name "electrical cabinet(1)"
+}
+ElectricalCabinet {
+  translation 79.50812482294984 162.17925292725008 0
+  rotation 0 0 1 4.974188353
+  name "electrical cabinet(2)"
+}
+ElectricalCabinet {
+  translation 59.08722814094757 155.99408159206686 0
+  rotation 0 0 1 4.974188353
+  name "electrical cabinet(3)"
+}
+ElectricalCabinet {
+  translation 30.44310973582461 147.67339190747268 0
+  rotation 0 0 1 4.974188353
+  name "electrical cabinet(4)"
+}
+ElectricalCabinet {
+  translation -6.9994783608631295 134.7446921756324 0
+  rotation 0 0 1 4.974188353
+  name "electrical cabinet(5)"
+}
+Mailbox {
+  translation 142.069 172.286 0
+  rotation 0 0 1 4.974188353
+}
+Mailbox {
+  translation 1.7814997188552653 128.6183305209165 0
+  rotation 0 0 1 4.974188353
+  name "mailbox(1)"
+}
+MetallicTrash {
+  translation 134.79555267057913 178.02189033359363 0
+  name "metallic trash(7)"
+}
+MetallicTrash {
+  translation 46.21765130319687 152.04684154315262 0
+  name "metallic trash(9)"
+}
+MetallicTrash {
+  translation 20.416955596814965 144.17308753996014 0
+  name "metallic trash(11)"
+}
+MetallicTrash {
+  translation 0.5332229930694474 135.70212212946996 0
+  name "metallic trash(12)"
+}
+MetallicTrash {
+  translation 112.71604237906108 171.3944203511594 0
+  name "metallic trash(10)"
+}
+MetallicTrash {
+  translation 172.02112214293888 188.0217964838749 0
+  name "metallic trash(8)"
+}
+TrashBin {
+  translation 128.4823332649845 174.90913231211087 0
+  rotation 0 0 1 -1.3089969445897933
+}
+TrashBin {
+  translation 106.93402527297448 169.8864524897677 0
+  rotation 0 0 1 -1.3089969445897933
+  name "trash bin(6)"
+}
+TrashBin {
+  translation -24.330610423709402 129.61149511639886 0
+  name "trash bin(7)"
+}
+TrashBin {
+  translation 25.183427670435517 145.77473231905932 0
+  rotation 0 0 1 -1.3089969445897933
+  name "trash bin(9)"
+}
+TrashBin {
+  translation 53.94080066082118 154.13276826629198 0
+  rotation 0 0 1 -1.3089969445897933
+  name "trash bin(8)"
+}
+TrashBin {
+  translation 164.40281024891163 185.58260831263476 0
+  rotation 0 0 1 -1.3089969445897933
+  name "trash bin(5)"
+}
+TrashContainer {
+  translation 202.876 197.504 0
+  rotation 0 0 1 5.497787127
+}
+TrashContainer {
+  translation -15.4219 131.891 0
+  rotation 0 0 1 4.974188353
+  name "trash container(3)"
+}
+TrashContainer {
+  translation 11.8022 141.33 0
+  rotation 0 0 1 4.974188353
+  name "trash container(5)"
+}
+TrashContainer {
+  translation 67.4901 158.054 0
+  rotation 0 0 1 4.974188353
+  name "trash container(4)"
+}
+TrashContainer {
+  translation 184.175 192.341 0
+  rotation 0 0 1 4.974188353
+  name "trash container(2)"
+}
+TrashContainer {
+  translation 145.823 180.873 0
+  rotation 0 0 1 4.974188353
+  name "trash container(1)"
+}
+BusStop {
+  translation 38.94307751193683 140.43361596598368 0
+  rotation 0 0 1 -1.2876110244102064
+  name "bus stop(5)"
+}
+DEF BUS_LINE Pose {
+  translation 39.94622663085551 136.7897942999489 0.1
+  rotation 0 0 -1 1.28761
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/vehicles/worlds/textures/bus_lines.png"
+          ]
+        }
+        roughness 1
+        metalness 0
+      }
+      geometry Plane {
+        size 4 14
+      }
+    }
+  ]
+}
+UrbanFence {
+  translation -116.13388217127653 92.09519231115581 0.01
+  rotation 0 0 1 4.712388966
+}
+UrbanFence {
+  translation -117.98388217156403 92.07519233776762 0.01
+  rotation 0 0 1 4.712388966
+  name "urban fence(1)"
+}
+UrbanFence {
+  translation -119.93388217199563 92.04519236581763 0.01
+  rotation 0 0 1 4.712388966
+  name "urban fence(2)"
+}
+UrbanFence {
+  translation -121.84388217242712 92.01519239329245 0.01
+  rotation 0 0 1 4.712388966
+  name "urban fence(3)"
+}
+UrbanFence {
+  translation -123.93388217329031 91.95519242335632 0.01
+  rotation 0 0 1 4.712388966
+  name "urban fence(4)"
+}
+UrbanFence {
+  translation -134.1888688781169 87.09873582971942 0.00999999999992184
+  rotation 0 0 -1 3.248
+  name "urban fence(5)"
+}
+UrbanFence {
+  translation -134.40659253134902 85.06033046992876 0.00999999999992184
+  rotation 0 0 -1 3.248
+  name "urban fence(6)"
+}
+UrbanFence {
+  translation -134.6158196517722 83.1014726363739 0.00999999999992184
+  rotation 0 0 -1 3.248
+  name "urban fence(7)"
+}
+UrbanFence {
+  translation -134.83672950480783 81.03323695424493 0.00999999999992184
+  rotation 0 0 -1 3.248
+  name "urban fence(8)"
+}
+UrbanFence {
+  translation -135.04701869183216 79.0644356799106 0.00999999999992184
+  rotation 0 0 -1 3.248
+  name "urban fence(9)"
+}
+UrbanFence {
+  translation -122.32591457215119 73.61623385997771 0.00999999999992184
+  rotation 0 0 1 2.32
+  name "urban fence(10)"
+}
+UrbanFence {
+  translation -120.8834186274117 74.95791394457677 0.00999999999992184
+  rotation 0 0 1 2.32
+  name "urban fence(11)"
+}
+UrbanFence {
+  translation -119.45505555591751 76.30010578481111 0.00999999999992184
+  rotation 0 0 1 2.32
+  name "urban fence(12)"
+}
+UrbanFence {
+  translation -117.97594803897647 77.67583866343553 0.00999999999992184
+  rotation 0 0 1 2.32
+  name "urban fence(13)"
+}
+UrbanFence {
+  translation -116.51148515091604 79.0379504244498 0.00999999999992184
+  rotation 0 0 1 2.32
+  name "urban fence(14)"
+}
+UrbanFence {
+  translation -115.09725495266723 80.38065402031934 0.00999999999992184
+  rotation 0 0 1 2.32
+  name "urban fence(15)"
+}
+UrbanFence {
+  translation -113.65475900792767 81.72233410491839 0.00999999999992184
+  rotation 0 0 1 2.32
+  name "urban fence(16)"
+}
+UrbanFence {
+  translation -112.2269076920687 83.05039307190731 0.00999999999992184
+  rotation 0 0 1 2.32
+  name "urban fence(17)"
+}
+TableWithUmbrella {
+  translation -154.8063451550912 94.43858000727386 0
+  rotation 0 0 1 0.7853981610000004
+  name "table with umbrella(2)"
+}
+TableWithUmbrella {
+  translation -161.87954477662225 87.55720089679022 0
+  name "table with umbrella(1)"
+}
+TableWithUmbrella {
+  translation -161.68120527328676 92.82455281769242 0
+  name "table with umbrella(5)"
+}
+TableWithUmbrella {
+  translation -156.10160322706236 89.55589673264613 0
+  rotation 0 0 1 5.23598774
+  name "table with umbrella(4)"
+}
+FastFoodRestaurant {
+  translation 98.2257 132.14 -1.13688e-13
+  rotation 0 0 1 1.8686
+  name "fast food restaurant(1)"
+  width 23
+  brand "subway"
+}
+DEF PLAY_AREA Solid {
+  translation -72.8937 123.701 0
+  rotation 0 0 -1 1.3089969733591733
+  children [
+    Pine {
+      translation -19.039999999999996 12.870000000000001 0
+      rotation 0 0 1 1.5707963220000003
+    }
+    Pine {
+      translation -11.640000038359167 4.869999964517768 0
+      rotation 0 0 1 1.5707963220000003
+      name "pine tree(2)"
+    }
+    Pine {
+      translation -19.039999999999996 -3.5699999999999994 0
+      name "pine tree(1)"
+    }
+    Sassafras {
+      translation -15.75 25.329999999999988 0
+    }
+    BigSassafras {
+      translation -8.16 -16.9 0
+      name "sassafras tree(1)"
+    }
+    PalmTree {
+      translation 10.36 27.18000000000002 0
+      rotation 0 0 1 0.2617993870000007
+    }
+    PalmTree {
+      translation 10.36 17.11000000000003 0
+      rotation 0 0 1 4.712388966
+      name "palm tree(1)"
+    }
+    PalmTree {
+      translation 10.36 4.770000000000028 0
+      rotation 0 0 1 2.356194483
+      name "palm tree(2)"
+    }
+    PalmTree {
+      translation 10.36 -6.959999999999971 0
+      name "palm tree(3)"
+    }
+    PalmTree {
+      translation 10.36 -17.539999999999974 0
+      rotation 0 0 1 5.7595865139999995
+      name "palm tree(4)"
+    }
+    PalmTree {
+      translation 10.36 -28.029999999999973 0
+      rotation 0 0 -1 4.450589598179587
+      name "palm tree(5)"
+    }
+    PalmTree {
+      translation -5.230000000000002 -28.029999999999973 0
+      name "palm tree(6)"
+    }
+    PalmTree {
+      translation -18.2 -28.029999999999973 0
+      name "palm tree(7)"
+    }
+    SwingCouch {
+      translation -18.50999995324974 3.250000053223353 0
+    }
+    SwingCouch {
+      translation -14.488910811959313 -22.935267429505167 0
+      rotation 0 0 1 0.5235987404357232
+      name "swing couch(1)"
+    }
+    SwingCouch {
+      translation -18.224999700554385 20.21363452427017 0
+      rotation 0 0 1 -0.5235988075642769
+      name "swing couch(2)"
+    }
+    OldBench {
+      translation 0 13.509999999999994 0
+      rotation 0 0 1 4.712388966
+    }
+    OldBench {
+      translation 0 -13.609999999999998 0
+      rotation 0 0 -1 4.712389004359173
+      name "old bench(1)"
+    }
+    OldBench {
+      translation -9.220000168900672 -5.519999811483799 0
+      name "old bench(2)"
+    }
+    OldBench {
+      translation -9.219999740267221 4.650000188516192 0
+      name "old bench(3)"
+    }
+    Pose {
+      translation -5.220000000000001 0 0.05
+      rotation 0 0 1 -1.5707953071795862
+      children [
+        Shape {
+          appearance Grass {
+            type "artificial"
+            textureTransform TextureTransform {
+              scale 30 17
+            }
+          }
+          geometry Plane {
+            size 60 35
+          }
+          castShadows FALSE
+        }
+      ]
+    }
+    Fence {
+      translation -5.220000000000001 0 0.05
+      name "fence(1)"
+      height 1.3
+      poleGap 0.7000000000000001
+      poleRadius 0.1
+      poleShape "diamond"
+      poleAppearance RoughOak {
+      }
+      path [
+        0 30 0
+        17.5 30 0
+        17.5 -30 0
+        -17.5 -30 0
+        -17.5 30 0
+        -5 30 0
+      ]
+      horizontalBarsNumber 3
+      horizontalBarAppearance RoughOak {
+      }
+    }
+    Fence {
+      height 0.19999999999999998
+      poleGap 0.19
+      poleRadius 0.1
+      poleAppearance RoughOak {
+      }
+      path [
+        8 12 0
+        8 -12 0
+        -8 -12 0
+        -8 12 0
+        8 12 0
+      ]
+      horizontalBarsNumber 0
+    }
+    Pose {
+      translation 0 0 0.1
+      rotation 0 1 0 0
+      children [
+        Shape {
+          appearance Sand {
+            textureTransform TextureTransform {
+              scale 7 3
+            }
+          }
+          geometry Plane {
+            size 16 24
+          }
+          castShadows FALSE
+        }
+      ]
+    }
+    Swing {
+      translation -3.0933767525094957 -6.982114312085835 0
+      rotation 0 0 1 0.5235987739999998
+    }
+    Swing {
+      translation -3.0933767525094957 6.98211 0
+      rotation 0 0 1 -0.523599
+      name "swing(1)"
+    }
+    Slide {
+      translation -2.9099999999999993 -1.7100000000000006 0
+    }
+    Slide {
+      translation 2.157521734050078 4.276060120386479 0
+      rotation 0 0 1 4.974188353
+      name "slide(1)"
+    }
+    WateringCan {
+      translation 4.120000000000001 -6.64 0
+      rotation 0 0 1 0.5235987739999998
+    }
+    SoccerBall {
+      translation 4.5800000000000125 -5.079999999999991 0.19999901900000003
+    }
+  ]
+  name "solid(0)"
+}
+DEF PLAY_AREA Solid {
+  translation 219.566 157.318 0
+  rotation 0 0 -1 1.25991
+  children [
+    Pine {
+      translation -19.039999999999996 12.870000000000001 0
+      rotation 0 0 1 1.5707963220000003
+    }
+    Pine {
+      translation -11.640000038359167 4.869999964517768 0
+      rotation 0 0 1 1.5707963220000003
+      name "pine tree(2)"
+    }
+    Pine {
+      translation -19.039999999999996 -3.5699999999999994 0
+      name "pine tree(1)"
+    }
+    Sassafras {
+      translation -15.75 25.329999999999988 0
+    }
+    BigSassafras {
+      translation -8.16 -16.9 0
+      name "sassafras tree(1)"
+    }
+    PalmTree {
+      translation 10.36 27.18000000000002 0
+      rotation 0 0 1 0.2617993870000007
+    }
+    PalmTree {
+      translation 10.36 17.11000000000003 0
+      rotation 0 0 1 4.712388966
+      name "palm tree(1)"
+    }
+    PalmTree {
+      translation 10.36 4.770000000000028 0
+      rotation 0 0 1 2.356194483
+      name "palm tree(2)"
+    }
+    PalmTree {
+      translation 10.36 -6.959999999999971 0
+      name "palm tree(3)"
+    }
+    PalmTree {
+      translation 10.36 -17.539999999999974 0
+      rotation 0 0 1 5.7595865139999995
+      name "palm tree(4)"
+    }
+    PalmTree {
+      translation 10.36 -28.029999999999973 0
+      rotation 0 0 -1 4.450589598179587
+      name "palm tree(5)"
+    }
+    PalmTree {
+      translation -5.230000000000002 -28.029999999999973 0
+      name "palm tree(6)"
+    }
+    PalmTree {
+      translation -18.2 -28.029999999999973 0
+      name "palm tree(7)"
+    }
+    SwingCouch {
+      translation -18.50999995324974 3.250000053223353 0
+    }
+    SwingCouch {
+      translation -14.488910811959313 -22.935267429505167 0
+      rotation 0 0 1 0.5235987404357232
+      name "swing couch(1)"
+    }
+    SwingCouch {
+      translation -18.224999700554385 20.21363452427017 0
+      rotation 0 0 1 -0.5235988075642769
+      name "swing couch(2)"
+    }
+    OldBench {
+      translation 0 13.509999999999994 0
+      rotation 0 0 1 4.712388966
+    }
+    OldBench {
+      translation 0 -13.609999999999998 0
+      rotation 0 0 -1 4.712389004359173
+      name "old bench(1)"
+    }
+    OldBench {
+      translation -9.220000168900672 -5.519999811483799 0
+      name "old bench(2)"
+    }
+    OldBench {
+      translation -9.219999740267221 4.650000188516192 0
+      name "old bench(3)"
+    }
+    Pose {
+      translation -5.220000000000001 0 0.05
+      rotation 0 0 1 1.5708
+      children [
+        Shape {
+          appearance Grass {
+            type "artificial"
+            textureTransform TextureTransform {
+              scale 30 17
+            }
+          }
+          geometry Plane {
+            size 60 35
+          }
+          castShadows FALSE
+        }
+      ]
+    }
+    Fence {
+      translation -5.220000000000001 0 0.05
+      name "fence(1)"
+      height 1.3
+      poleGap 0.7000000000000001
+      poleRadius 0.1
+      poleShape "diamond"
+      poleAppearance RoughOak {
+      }
+      path [
+        0 30 0
+        17.5 30 0
+        17.5 -30 0
+        -17.5 -30 0
+        -17.5 30 0
+        -5 30 0
+      ]
+      horizontalBarsNumber 3
+      horizontalBarAppearance RoughOak {
+      }
+    }
+    Fence {
+      height 0.19999999999999998
+      poleGap 0.19
+      poleRadius 0.1
+      poleAppearance RoughOak {
+      }
+      path [
+        8 12 0
+        8 -12 0
+        -8 -12 0
+        -8 12 0
+        8 12 0
+      ]
+      horizontalBarsNumber 0
+    }
+    Pose {
+      translation 0 0 0.1
+      rotation 0 0 1 1.5708
+      children [
+        Shape {
+          appearance Sand {
+            textureTransform TextureTransform {
+              scale 7 3
+            }
+          }
+          geometry Plane {
+            size 24 16
+          }
+          castShadows FALSE
+        }
+      ]
+    }
+    Swing {
+      translation -3.0933767525094957 -6.982114312085835 0
+      rotation 0 0 1 0.5235987739999998
+    }
+    Swing {
+      translation -3.0933767525094957 6.98211 0
+      rotation 0 0 1 -0.523599
+      name "swing(1)"
+    }
+    Slide {
+      translation -2.9099999999999993 -1.7100000000000006 0
+    }
+    Slide {
+      translation 2.157521734050078 4.276060120386479 0
+      rotation 0 0 1 4.974188353
+      name "slide(1)"
+    }
+    WateringCan {
+      translation 4.120000000000001 -6.64 0
+      rotation 0 0 1 0.5235987739999998
+    }
+    SoccerBall {
+      translation 4.580000000000027 -5.080000000000041 0.19999901900000003
+    }
+  ]
+  name "play area"
+}
+LargeResidentialTower {
+  translation 122.753 134.176 0
+  rotation 0 0 -1 6.021385939359171
+  name "LargeResidentialTower(2)"
+  scale 1.5
+}
+Pose {
+  translation 222.1946245412187 98.922813945356 0
+  rotation 0 0 -1 5.235987778359173
+  children [
+    LargeResidentialTower {
+      translation 0.120193 30.3919 0
+      rotation 0 0 -1 -0.785395307179586
+      name "LargeResidentialTower(6)"
+      scale 1.5
+      numberOfFloors 5
+    }
+    LargeResidentialTower {
+      translation -10.4963 68.0138 0
+      rotation 0 0 1 0.809937
+      name "LargeResidentialTower(1)"
+      scale 1.5
+      numberOfFloors 5
+    }
+  ]
+}
+Pose {
+  translation 304.94755765527304 158.47904750226257 0
+  rotation 0 0 1 1.3089968966408263
+  children [
+    LargeResidentialTower {
+      rotation 0 0 -1 5.2359877591795865
+      name "LargeResidentialTower(8)"
+      scale 1.5
+      numberOfFloors 3
+    }
+  ]
+}
+Pose {
+  translation 283.7656778259336 133.93753566104644 0
+  rotation 0 0 -1 4.712389004359173
+  children [
+    LargeResidentialTower {
+      rotation 0 0 -1 5.2359877591795865
+      name "LargeResidentialTower(10)"
+      scale 1.5
+    }
+  ]
+}
+Pose {
+  translation 258.2466832436322 109.36312532669966 0
+  rotation 0 0 -1 2.3561945213591735
+  children [
+    LargeResidentialTower {
+      translation 4.533 -21.2888 0
+      rotation 0 0 -1 5.2359877591795865
+      name "LargeResidentialTower(11)"
+      scale 1.5
+      numberOfFloors 6
+    }
+  ]
+}
+Pose {
+  translation 100.82608241723368 110.23943283977299 0
+  rotation 0 0 1 1.832595709
+  children [
+    LargeResidentialTower {
+      name "LargeResidentialTower(14)"
+      scale 1.5
+    }
+  ]
+}
+Pose {
+  translation 160.63700064758143 124.0733761821126 0
+  rotation 0 0 1 1.832595709
+  children [
+    LargeResidentialTower {
+      translation 27.48 0 0
+      rotation 0 0 1 0.0441786
+      name "LargeResidentialTower(16)"
+      scale 1.5
+    }
+  ]
+}
+ToyotaPriusSimple {
+  translation 109.903 162.546 0.4
+  rotation 0 0 -1 2.83889
+  name "vehicle(3)"
+}
+BigGlassTower {
+  translation 47.56 189.25 0
+  rotation 0 0 1 0.260163
+}
+CyberboticsTower {
+  translation 21.1247 189.91 -2.54375e-12
+  rotation 0 0 1 1.8375
+}
+BmwX5Simple {
+  translation 19.0101 134.743 0.36
+  rotation 0 0 -1 2.86179
+  name "vehicle(1)"
+}
+TeslaModel3Simple {
+  translation 104.151 160.775 0.4
+  rotation 0 0 1 -2.851975307179586
+  color 0.223529 0.447059 0
+  name "vehicle(4)"
+}
+TheThreeTowers {
+  translation -147.143 77.946 0
+  rotation 0 0 -1 2.84707
+}
+MercedesBenzSprinterSimple {
+  translation 12.7225 132.92 0.4
+  rotation 0 0 -1 2.84707
+  color 0 0 0
+}
+RangeRoverSportSVRSimple {
+  translation 181.401 163.364 0.4
+  rotation -9.58975e-09 7.29635e-09 1 1.84078
+  name "vehicle(7)"
+}
+GasStation {
+  translation -121.114 111.634 8.17126e-14
+  rotation 0 0 -1 1.20265
+}
+UBuilding {
+  translation 344.667 223.331 0.2
+  rotation 0 0 -1 -2.8568853071795863
+}
+HighwayPole {
+  translation -2.42254 127.726 0
+  rotation 0 0 1 0.261799
+}
+ParkingMeter {
+  translation 23.6323 137.203 1.06581e-14
+  rotation 0 0 1 1.81624
+}
+WoodenBox {
+  translation 190.749 187.644 0.3
+}
